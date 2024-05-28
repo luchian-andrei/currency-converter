@@ -86,10 +86,6 @@ const ShowValues = ({
     ratePerUnit();
   }, [desiredRate]);
 
-  // useEffect(() => {
-  //   setShowAlert(showInfo);
-  // }, [showInfo]);
-
   return (
     <section className="flex flex-col w-full justify-center items-center">
       <div className="w-full flex flex-wrap justify-around items-center  px-6">
