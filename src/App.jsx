@@ -28,8 +28,8 @@ function App() {
   return (
     <section
       className={`w-full ${
-        baseCurrency === "Select a currency" ? "h-screen" : "h-fit"
-      }   flex flex-col justify-center items-center bg-emerald-200`}
+        baseCurrency === "Select a currency" ? "h-fit sm:h-screen " : "h-fit"
+      }   flex flex-col justify-center items-center bg-gradient-to-br from-[#8BC6EC] to-[#9599E2]`}
     >
       <LanguageSelect handleChanges={(option) => setLanguage(option)} />
       <MainSection

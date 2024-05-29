@@ -15,7 +15,7 @@ const LanguageSelect = ({ handleChanges }) => {
   }, [selectedLanguage]);
 
   return (
-    <div className="w-full h-2/3 px-16 text-xl my-10">
+    <div className="w-full h-1/3 px-16 text-xl my-10 sm:mt-10  ">
       <button
         className=" p-2 shadow-md rounded-md bg-gray-100 "
         onClick={() => setShowOptions(!showOptions)}

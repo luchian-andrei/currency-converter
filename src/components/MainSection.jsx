@@ -20,9 +20,9 @@ const MainSection = ({ handleMainSection, text }) => {
 
   return (
     <section
-      className={`w-full sm:w-5/6  ${
-        exchangeRates !== undefined ? "mb-4" : "mb-16"
-      } flex flex-col justify-center items-center gap-4 h-2/3 bg-gray-50 rounded-md shadow-lg`}
+      className={`w-full sm:w-11/12 lg:w-5/6   ${
+        exchangeRates !== undefined ? "sm:mb-4 mb-0" : "mb-16"
+      } flex flex-col justify-center items-center gap-4 sm:h-2/3 h-fit bg-gray-50 rounded-md shadow-lg`}
     >
       <div className=" w-full flex flex-col sm:flex-row justify-between   items-center">
         <AmountInput
